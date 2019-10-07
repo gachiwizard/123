@@ -1,0 +1,12 @@
+def decimal_function():
+    h=int(input)
+    m=int(input)
+    s=int(input)
+    decimal= h+m/60+s/3600
+    print(decimal)
+def hours_function():
+    decimal=int(input)
+    h=int(decimal)
+    m1=(decimal-h)*60; m=int(m1)
+    s=(m1-m)*60; s=int(s)
+    print( h":"m":"s)
